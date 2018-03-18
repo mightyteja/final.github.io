@@ -24,13 +24,7 @@ progress{
 [hidden],template{
     display:none
 }
-a{
-    background-color:transparent;
-    -webkit-text-decoration-skip:objects
-}
-a:active,a:hover{
-    outline-width:0
-}
+
 abbr[title]{
     border-bottom:none;
     text-decoration:underline;
@@ -66,9 +60,7 @@ sub{
 sup{
     top:-.5em
 }
-img{
-    border-style:none
-}
+
 svg:not(:root){
     overflow:hidden
 }
@@ -1409,14 +1401,7 @@ html.tp-is-mobile-nav-open{
     max-width:none;
     padding:0
 }
-body,div,footer,h1,h2,h3,header,html,nav,p,section{
-    margin:0;
-    padding:0
-}
-img{
-    max-width:100%;
-    height:auto
-}
+
 @font-face{
     font-family:Brandon Text;
     src:url("https://webteam.jimstatic.com/brandon-text/fonts/regular.woff");
