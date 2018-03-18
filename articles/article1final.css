@@ -1,0 +1,66 @@
+.container
+{
+  margin-left:160px;
+}
+.root-container
+{
+  margin-top : 60px;
+}
+.col-sm-4 li
+{
+  color:white;
+  background:pink;
+}
+.parallax
+{
+    /* The image used */
+    background-image: url("../final_images/background1.jpeg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax i
+{
+  background: transparent;
+  margin-left: 60px;
+  font-size:2vw;
+  font-family:verdana;
+  color:white;
+}
+.parallax .panel-body
+{
+ list-style-type: none;
+    font-family:verdana;
+  color:black;
+  text-align: justify;
+}
+.parallax .panel-heading
+{
+  margin-left:150px;
+  margin-right:500px;
+  background:aquamarine
+}
+.parallax h2
+{
+  background: transparent;
+  margin-right: 280px;
+  font-size:2vw;
+  color:white;
+}
+ ul.nav-pills {
+    top: 150px;
+    position: fixed;
+}
+#accordion11 {color: #black; background-color: pink;}
+
+@media screen and (max-width: 810px) {
+  #accordion11, {
+      margin-left: 150px;
+  }
+}

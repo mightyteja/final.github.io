@@ -1,6 +1,3 @@
-body, html {
-    height: 100%;
-}
 
 .parallax {
     /* The image used */
@@ -43,9 +40,7 @@ body, html {
     background-size: cover;
 }
 
-body {
 
-}
 ul.nav-pills {
     top: 20px;
     position: fixed;
