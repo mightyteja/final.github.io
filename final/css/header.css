@@ -1,0 +1,26 @@
+.name {
+font-size: 16px;
+color: white;
+padding-top: 15px;
+}
+.logo {
+  padding: 10px 10px 0 10px;
+}
+.navbar .navbar-header{
+	margin-left:40px;
+	}/*for the logo */
+.navbar .menubar{
+	padding-right: 30px;
+}/*right menu alignment*/
+
+.navbar-nav .btn-group
+{
+	margin-top: 15px;
+}/*dropdown menu alignment*/
+
+.dropdown-menu{
+	background: transparent;
+}/*dropdown color change*/
+.btn-group a{
+	margin-top:-15px;
+}

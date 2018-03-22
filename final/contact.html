@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page </title>
+<!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--<link rel="stylesheet" href="css/bootstrap3.min.css">-->
+<link rel="stylesheet" href="css/bootstrap4.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/style.css">
+<script src ="jquery/jquery.js"></script>
+
+<script>
+$(function(){
+  $("#footer").load("footer/footer0.html");
+  });
+</script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<div class="parallax_contact_form">
+
+
+  <!-- navbar section starts -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <!-- Brand/logo -->
+
+    <a class="navbar-brand" href="#">
+
+
+      <img src="images/icon1.png" alt="logo" style="width:40px;" class="d-inline-block align-top"> Logo
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <form class="form-inline">
+        <button onclick="window.location.href='home.html'" class="btn btn-outline-danger" type="button">Home</button>
+        <button onclick="window.location.href='articles.html'"  class="btn btn-sm btn-outline-secondary" type="button">Articles</button>
+        <button onclick="window.location.href='quote.html'"  class="btn btn-outline-success" type="button">Get a Quote</button>
+        <button onclick="window.location.href='contact.html'"  class="btn btn-sm btn-outline-secondary active" type="button">Contact US</button></form>
+      </ul>
+</div>
+  </nav>
+<!-- navbar section ends -->
+
+
+<!-- contact form Section -->
+<!--Remaining section-->
+<div class="row row_contact">
+      <div class ="left_row col-md-1">
+      </div>
+      <div class ="right_row col-md-8 offset-md-3">
+    <form class = "contact_form">
+
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="inputfname">First Name</label>
+          <input type="text" class="form-control" id="inputfname" placeholder="What should we call you !!" required>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputlname">Last Name</label>
+          <input type="text" class="form-control" id="inputlname" placeholder="Initials">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputmname">Middle Name</label>
+          <input type="text" class="form-control" id="inputmname" placeholder="Initials">
+        </div>
+      </div>
+      <div class="form-group col-md-6">
+      <label for="inputemail">Email</label>
+      <input type="email" class="form-control" id="inputemail" placeholder="Your Digital Id" required>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="inputphone">Phone No</label>
+    <input type="number" class="form-control" id="inputphone" placeholder="Contact No:" required>
+    </div>
+      <div class="form-group col-md-6">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Where do you stay!" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, Office, or Residential">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3" required>
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-2" required>
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control" required>
+            <option value="" >Select State...</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Puducherry">Puducherry</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option class ="divider"></option>
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+    <option value="Daman and Diu">Daman and Diu</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Lakshadweep">Lakshadweep</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Orissa">Orissa</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttaranchal">Uttaranchal</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="West Bengal">West Bengal</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputpincode">PinCode</label>
+          <input type="text" class="form-control" id="inputpincode">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck">
+            I hearby authorize Company to contact me. !! Dont worry we dont spam you !!.
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  </div>
+
+
+</body>
+
+
+<div id="footer"></div>
+</div>
+</html>

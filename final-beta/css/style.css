@@ -1,0 +1,38 @@
+/*my style for footer*/
+.tp-main-footer
+{
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+/*contactus*/
+
+
+.parallax_contact_form {
+    /* The image used */
+    background-image: url("../images/contactus_bg.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .left_row
+  {
+    background: url(../images/contactus.jpg);
+  }
+  .right_row{
+    background: transparent;
+  }
+  .row_contact{
+    background: url(../images/contactus_bg.jpeg);
+    margin-top: 65px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
